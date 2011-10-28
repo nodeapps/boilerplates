@@ -1,11 +1,15 @@
-# Hello Socket.io!
+# socket.io
 
 A very simple socket.io "hello world" example.
 
 ## Installation
 
-     git clone git://github.com/nodeapps/hellosocketio.git
-     cd hellosocketio
-     node server.js
+    # Clone the repo
+    git clone git://github.com/nodeapps/boilerplates.git
+    cd boilerplates/socket.io
+    # Install dependencies
+    npm install
+    # Run the server
+    node bin/server
 
 Now you should have a listening node.js http server running on port 8080!

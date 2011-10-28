@@ -7,8 +7,8 @@ folder.
 # Install:
 
     # Clone the repo
-    git clone git@github.com:nodeapps/express-boilerplate.git
-    cd express-boilerplate
+    git clone git@github.com:nodeapps/boilerplates.git
+    cd boilerplates/express
     # Install dependencies
     npm install
     # Run the server
