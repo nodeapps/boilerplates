@@ -1,0 +1,12 @@
+{
+  "name": "dnode-boilerplate",
+  "scripts": {
+    "start": "./bin/server"
+  },
+  "main" : "./bin/server",
+  "version": "0.0.0",
+  "dependencies": {
+    "socket.io": "v0.8.x",
+    "dnode": "v0.8.x"
+  }
+}

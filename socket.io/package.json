@@ -1,0 +1,12 @@
+{
+  "name": "socket.io-boilerplate",
+  "scripts": {
+    "start": "server.js"
+  },
+  "main" : "./server.js",
+  "version": "0.0.0",
+  "dependencies": {
+    "socket.io": "v0.8.x",
+    "express": "v2.5.x"
+  }
+}
