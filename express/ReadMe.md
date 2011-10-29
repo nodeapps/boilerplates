@@ -1,3 +1,4 @@
+
 # Node Apps
 ## Express Boilerplate
 
@@ -12,7 +13,7 @@ folder.
 
     jitsu install express
 
-*if you do not have `jitsu` installed you can install it via `npm`:*
+*if you do not have `jitsu` installed you can install it via `npm`*
 
 ### Installing npm (node package manager)
 
@@ -29,6 +30,8 @@ folder.
 
     cd express/
     node app.js
+
+*Now you can visit http://localhost:3000 to view your application*
 
 ## Deploy boilerplate to nodejitsu
 
