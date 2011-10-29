@@ -1,0 +1,7 @@
+{
+  "host": "my.leet.mongo.com",
+  "port": 10000,
+  "dbName": "mydb",
+  "username": "ninja",
+  "password": "supersecret"
+}
