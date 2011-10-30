@@ -2,7 +2,7 @@
 
 ## Application Boilerplates
 
-This repo contains a collection of "boilerplate applications". These are ready-to-run, minimal, and barebrone node.js that are meant to get you started on applications from zero to deployed for a variety of different node.js libraries.
+This repo contains a collection of "boilerplate applications". These are  minimal and ready-to-run node.js applications designed to get you from zero to deployed in minutes.
 
 ## Installation
 
@@ -16,7 +16,7 @@ This repo contains a collection of "boilerplate applications". These are ready-t
 
 *where `name` is the name of any included boilerplate*
 
-### Included Boilerplates
+## Included Boilerplates
 
 ```
 jitsu install couchdb
@@ -30,7 +30,9 @@ jitsu install socket.io
 
 ## Usage
 
-Each individual boilerplate folder contains its own `ReadMe.md` containing further documentation per boilerplate.
+After running `jitsu install <appname>`, you will be prompted to start the application locally. After testing the application locally, you can then deploy it to the cloud using the `jitsu deploy` command.
+
+For additional information, each individual boilerplate folder contains it's own `ReadMe.md` file.
 
 # License
 
