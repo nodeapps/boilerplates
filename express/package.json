@@ -1,9 +1,9 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
+  "name": "nodeapps-express",
+  "author": "Nodejitsu Inc. <support@nodejitsu.com>",
+  "version": "0.1.0",
   "scripts": {
-    "start": "app.js"
+    "start": "./app.js"
   },
   "dependencies": {
     "express": "2.5.0",

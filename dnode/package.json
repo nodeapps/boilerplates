@@ -1,12 +1,12 @@
 {
-  "name": "dnode-boilerplate",
+  "name": "nodeapps-dnode",
   "scripts": {
     "start": "./bin/server"
   },
-  "main" : "./bin/server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "socket.io": "v0.8.x",
+    "express": "v2.5.0",
     "dnode": "v0.8.x"
   }
 }

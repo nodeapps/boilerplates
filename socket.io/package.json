@@ -1,10 +1,10 @@
 {
-  "name": "socket.io-boilerplate",
+  "name": "nodeapps-socket.io",
+  "author": "Nodejitsu Inc. <support@nodejitsu.com>",
   "scripts": {
-    "start": "server.js"
+    "start": "./bin/server"
   },
-  "main" : "./server.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "dependencies": {
     "socket.io": "v0.8.x",
     "express": "v2.5.x"

@@ -30,7 +30,7 @@ jitsu install socket.io
 
 ## Usage
 
-Each individual boilerplate folder contains its own ReadMe.md.
+Each individual boilerplate folder contains its own `ReadMe.md` containing further documentation per boilerplate.
 
 # License
 

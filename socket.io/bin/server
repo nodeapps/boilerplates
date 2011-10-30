@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var express = require("express"),
     app = express.createServer(),
     io = require('socket.io').listen(app); // socket.io may listen to an http
@@ -22,3 +24,5 @@ io.sockets.on('connection', function (socket) {
 });
 
 app.listen(8080);
+
+console.log('socket.io server started on http://localhost:8080');

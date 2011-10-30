@@ -26,7 +26,7 @@
     cd express/
     jitsu deploy
 
-*You will now be prompted for a `subdomain` to deploy your application*
+*You will now be prompted for a `subdomain` to deploy your application on*
 
 
 # License

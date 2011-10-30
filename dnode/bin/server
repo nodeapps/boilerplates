@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var dnode = require('dnode'),
     express = require('express'),
     app = express.createServer();
