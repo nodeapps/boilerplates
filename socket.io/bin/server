@@ -24,5 +24,3 @@ io.sockets.on('connection', function (socket) {
 });
 
 app.listen(8080);
-
-console.log('socket.io server started on http://localhost:8080');

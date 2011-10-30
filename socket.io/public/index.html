@@ -6,7 +6,7 @@
     <script>
       window.onload = function () {
         // Connect to socket.io
-        var socket = io.connect('http://localhost');
+        var socket = io.connect('/');
 
         // React to a received message
         socket.on('ping', function (data) {

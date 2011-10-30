@@ -4,7 +4,7 @@
   "scripts": {
     "start": "./bin/server"
   },
-  "version": "0.1.0",
+  "version": "0.1.0-1",
   "dependencies": {
     "socket.io": "v0.8.x",
     "express": "v2.5.x"
