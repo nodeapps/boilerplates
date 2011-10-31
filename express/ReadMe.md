@@ -5,7 +5,7 @@
 
 [http://expressjs.com](http://express.js.com)
 
-https://github.com/nodeapps/boilerplates/raw/master/screenshots/express.png
+![](https://github.com/nodeapps/boilerplates/raw/master/screenshots/express.png)
 
 # Installation
 

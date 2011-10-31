@@ -3,7 +3,7 @@
 
 [http://socket.io](http://socket.io)
 
-https://github.com/nodeapps/boilerplates/raw/master/screenshots/socket.io.png
+![](https://github.com/nodeapps/boilerplates/raw/master/screenshots/socket.io.png)
 
 # Installation
 
