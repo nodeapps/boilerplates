@@ -16,3 +16,5 @@ var server = dnode({
 
 // Dnode may take an express app or http server as a listener.
 server.listen(app);
+
+console.log('dnode server started on port 8080');

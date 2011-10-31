@@ -19,11 +19,8 @@ This repo contains a collection of "boilerplate applications". These are  minima
 ## Included Boilerplates
 
 ```
-jitsu install couchdb
 jitsu install dnode
 jitsu install express
-jitsu install mongodb
-jitsu install redis
 jitsu install socket.io
 
 ```

@@ -17,7 +17,7 @@
     cd dnode/
     node bin/server
 
-*Now you can visit http://localhost:3000 to view your application*
+*Now you can visit http://localhost:8080 to view your application*
 
 ### Deploy boilerplate to nodejitsu
 
