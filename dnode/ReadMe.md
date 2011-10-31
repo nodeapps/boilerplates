@@ -3,6 +3,8 @@
 
 [http://github.com/substack/dnode](http://github.com/substack/dnode)
 
+![](https://github.com/nodeapps/boilerplates/raw/master/screenshots/dnode.png)
+
 # Installation
 
     jitsu install dnode

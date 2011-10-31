@@ -4,6 +4,8 @@
 
 This repo contains a collection of "boilerplate applications". These are  minimal and ready-to-run node.js applications designed to get you from zero to deployed in minutes.
 
+![](https://github.com/nodeapps/boilerplates/raw/master/screenshots/jitsu_install.png)
+
 ## Installation
 
 ### Install jitsu ( helps manage your node apps )

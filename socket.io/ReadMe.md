@@ -3,6 +3,8 @@
 
 [http://socket.io](http://socket.io)
 
+https://github.com/nodeapps/boilerplates/raw/master/screenshots/socket.io.png
+
 # Installation
 
     jitsu install socket.io
