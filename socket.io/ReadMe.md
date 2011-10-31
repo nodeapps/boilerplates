@@ -7,6 +7,8 @@
 
 # Installation
 
+    mkdir myapp
+    cd myapp/
     jitsu install socket.io
 
 *If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*
@@ -16,14 +18,12 @@
 
 ### Starting boilerplate locally
 
-    cd socket.io/
     node bin/server
 
 *Now you can visit http://localhost:8080 to view your application*
 
 ### Deploy boilerplate to nodejitsu
 
-    cd socket.io/
     jitsu deploy
 
 *You will now be prompted for a `subdomain` to deploy your application on*

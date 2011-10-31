@@ -7,6 +7,8 @@
 
 # Installation
 
+    mkdir myapp
+    cd myapp/
     jitsu install dnode
 
 *If you do not have `jitsu` installed you can install it via `npm install jitsu -g`*
@@ -16,14 +18,12 @@
 
 ### Starting boilerplate locally
 
-    cd dnode/
     node bin/server
 
 *Now you can visit http://localhost:8080 to view your application*
 
 ### Deploy boilerplate to nodejitsu
 
-    cd dnode/
     jitsu deploy
 
 *You will now be prompted for a `subdomain` to deploy your application on*

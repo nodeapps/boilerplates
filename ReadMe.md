@@ -14,9 +14,11 @@ This repo contains a collection of "boilerplate applications". These are  minima
 
 ## Installing boilerplates
 
-    jitsu install <name>
+    mkdir myapp
+    cd myapp/
+    jitsu install <appname>
 
-*where `name` is the name of any included boilerplate*
+*where `appname` is the name of any included boilerplate*
 
 ## Included Boilerplates
 
