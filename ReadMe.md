@@ -6,6 +6,10 @@ This repo contains a collection of "boilerplate applications". These are  minima
 
 ![](https://github.com/nodeapps/boilerplates/raw/master/screenshots/jitsu_install_express.png)
 
+### Is Your Boilerplate Missing?
+
+Would you like to see your framework featured in a boilerplate? We happily accept community contributions! Just fork this project, add your boilerplate in its own folder, and send us a pull request!
+
 ## Installation
 
 ### Install jitsu ( helps manage your node apps )
