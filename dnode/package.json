@@ -8,5 +8,6 @@
     "socket.io": "v0.8.x",
     "express": "v2.5.0",
     "dnode": "v0.8.x"
-  }
+  },
+  "analyze": false
 }

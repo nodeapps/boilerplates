@@ -8,5 +8,6 @@
   "dependencies": {
     "express": "2.5.0",
     "jade": ">= 0.0.1"
-  }
+  },
+  "analyze": false
 }

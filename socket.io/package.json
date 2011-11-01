@@ -8,5 +8,6 @@
   "dependencies": {
     "socket.io": "v0.8.x",
     "express": "v2.5.x"
-  }
+  },
+  "analyze": false
 }
