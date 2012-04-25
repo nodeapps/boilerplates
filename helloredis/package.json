@@ -1,0 +1,19 @@
+{
+  "author": "Nodejitsu <support@nodejitsu.com> (http://nodejitsu.com)",
+  "name": "helloredis",
+  "description": "A boilerplate for starting out with redis in node.",
+  "version": "0.0.0",
+  "dependencies": {
+    "wizard": "0.0.0",
+    "redis": "0.7.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.6.x"
+  },
+  "scripts": {
+    "install": "node ./installer.js",
+    "start": "node ./server.js"
+  }
+}

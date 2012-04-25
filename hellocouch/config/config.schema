@@ -1,0 +1,49 @@
+{
+    "properties": {
+        "name": {
+            "description": "the name of your awesome new site",
+            "type": "string",
+            "default": "hellocouch",
+            "required": true
+        },
+        "port": {
+            "description": "the port your application should listen on",
+            "type": "number",
+            "default": 8080
+        },
+        "host": {
+            "description": "the host your application should listen on",
+            "type": "any",
+            "default": "0.0.0.0"
+        },
+        "database": {
+            "properties: {
+                "port": {
+                    "description": "The port your couchdb should connect to",
+                    "type": "number",
+                    "default": 5984
+                },
+                "host": {
+                    "description": "The host your couchdb should connect to",
+                    "type": "any",
+                    "default": "localhost"
+                },
+                "username": {
+                    "description": "The username for your couchdb host",
+                    "type": "any",
+                    "default": null
+                },
+                "password": {
+                    "description": "The password for your couchdb host",
+                    "type": "any",
+                    "default": null
+                },
+                "database": {
+                    "description": "The database to connect to within your couchdb",
+                    "type": "string",
+                    "default": "helloworld"
+                }
+            }
+        }
+    }
+}

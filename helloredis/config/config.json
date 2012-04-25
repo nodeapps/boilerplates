@@ -1,0 +1,10 @@
+{
+  "name": "helloredis",
+  "port": 8080,
+  "host": "0.0.0.0",
+  "database": {
+    "port": 9069,
+    "host": "perch.redistogo.com",
+    "password": "****"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hellomongo",
+  "port": 8080,
+  "host": "0.0.0.0",
+  "database": {
+    "port": 10022,
+    "host": "staff.mongohq.com",
+    "username": "nodejitsu",
+    "password": "****",
+    "database": "****"
+  }
+}

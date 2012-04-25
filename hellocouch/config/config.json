@@ -1,0 +1,10 @@
+{
+  "name": "hellocouch",
+  "port": 8080,
+  "host": "0.0.0.0",
+  "database": {
+    "port": 5984,
+    "host": "localhost",
+    "database": "helloworld"
+  }
+}

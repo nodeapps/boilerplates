@@ -1,0 +1,22 @@
+{
+  "author": "Nodejitsu <support@nodejitsu.com> (http://nodejitsu.com)",
+  "name": "hellocouch",
+  "description": "A boilerplate for starting out with couchdb in node.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Marak/wizard.git"
+  },
+  "dependencies": {
+    "wizard": "0.0.0",
+    "nano": "2.1.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "start": "node ./server.js"
+  }
+}

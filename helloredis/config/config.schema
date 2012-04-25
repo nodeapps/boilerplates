@@ -1,0 +1,38 @@
+{
+    "properties": {
+        "name": {
+            "description": "the name of your awesome new site",
+            "type": "string",
+            "default": "helloredis",
+            "required": true
+        },
+        "port": {
+            "description": "the port your application should listen on",
+            "type": "number",
+            "default": 8080
+        },
+        "host": {
+            "description": "the host your application should listen on",
+            "type": "string",
+            "default": "0.0.0.0"
+        },
+        "database": {
+            "properties": {
+                "port": {
+                    "description": "The port your redis should connect to",
+                    "default": 6379
+                },
+                "host": {
+                    "description": "The host your redis should connect to",
+                    "type": "any",
+                    "default": "localhost"
+                },
+                "password": {
+                    "description": "The password for your redis host",
+                    "type": "any",
+                    "default": null
+                }
+            }
+        }
+    }
+}
