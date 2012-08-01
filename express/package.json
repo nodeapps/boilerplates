@@ -1,13 +1,13 @@
 {
   "name": "nodeapps-express",
   "author": "Nodejitsu Inc. <support@nodejitsu.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
-    "start": "./app.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "express": "2.5.9",
-    "jade": ">= 0.0.1"
+    "express": "3.0.0",
+    "jade": ">= 0.27.0"
   },
   "analyze": false
 }
