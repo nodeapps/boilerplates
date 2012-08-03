@@ -24,6 +24,8 @@
 
 ### Deploy boilerplate to nodejitsu
 
+    npm install -g browserify
+    browserify bin/client.js -o static/bundle.js
     jitsu deploy
 
 *You will now be prompted for a `subdomain` to deploy your application on*
