@@ -2,7 +2,8 @@
   "name": "nodeapps-dnode",
   "scripts": {
     "start": "node bin/server.js",
-    "install": "node_modules/.bin/browserify bin/client.js -o static/bundle.js"
+    "install": "node_modules/.bin/browserify bin/client.js -o static/bundle.js",
+    "predeploy": "node_modules/.bin/browserify bin/client.js -o static/bundle.js"
   },
   "version": "0.1.1",
   "dependencies": {
