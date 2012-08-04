@@ -1,14 +1,47 @@
 #!/usr/bin/env node
 
-var express = require("express"),
-    app = express.createServer(),
-    io = require('socket.io').listen(app); // socket.io may listen to an http
-                                           // or express server
+/**
+ * Module dependencies.
+ */
 
-// Use Express to serve static content, such as our index.html
+var express = require('express'),
+    path    = require('path'),
+    routes  = require(path.join('..','routes')),
+    http    = require('http'),
+    path    = require('path');
+  //io      = require('socket.io');
+
+var app = express();
+
 app.configure(function(){
-  app.use(express.static(__dirname + '/../public'));
+  app.set('port', 8080);
+  app.set('views', path.join(__dirname , path.join('..','views')));
+  app.set('view engine', 'jade');
+  app.use(express.favicon());
+  app.use(express.logger('dev'));
+  app.use(express.bodyParser());
+  app.use(express.methodOverride());
+  app.use(app.router);
+  app.use(express.static(path.join(__dirname, path.join('..','public'))));
 });
+
+app.configure('development', function(){
+  app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+});
+
+app.configure('production', function(){
+  app.use(express.errorHandler());
+});
+
+
+app.get('/', routes.index);
+
+//TODO: when express 3 updates check if there is a better way to attach socket.io
+var server = http.createServer(app).listen(app.get('port'), function(){
+  console.log("Express server listening on port %d in %s mode", app.get('port'), app.settings.env);
+});
+
+var io = require('socket.io').listen(server);
 
 //Socket.io emits this event when a connection is made.
 io.sockets.on('connection', function (socket) {
@@ -22,7 +55,3 @@ io.sockets.on('connection', function (socket) {
   });
 
 });
-
-app.listen(8080);
-
-console.log('socket.io server started on port 8080');

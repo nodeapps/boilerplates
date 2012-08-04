@@ -2,12 +2,13 @@
   "name": "nodeapps-socket.io",
   "author": "Nodejitsu Inc. <support@nodejitsu.com>",
   "scripts": {
-    "start": "./bin/server"
+    "start": "node bin/server"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
-    "socket.io": "v0.8.x",
-    "express": "v2.5.x"
+    "socket.io": "0.9.x",
+    "express": "3.0.x",
+    "jade": ">= 0.27.0"
   },
   "engines": {
     "node": "0.6.x"
