@@ -1,12 +1,13 @@
-<!doctype HTML>
-<html>
-  <head>
-    <!-- Socket.io serves its client-side code over this route automatically -->
-    <script src="/socket.io/socket.io.js"></script>
-    <script>
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='/socket.io/socket.io.js')
+    script(type='text/javascript')
       window.onload = function () {
         // Connect to socket.io
-        var socket = io.connect('/');
+        var socket = io.connect();
 
         // React to a received message
         socket.on('ping', function (data) {
@@ -20,9 +21,5 @@
           });
         });
       };
-    </script>
-  </head>
-  <body>
-    <div><h1><span id="msg">loading...</span></h1></div>
-  </body>
-</html>
+  body
+    block content

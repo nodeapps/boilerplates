@@ -1,13 +1,17 @@
 {
   "name": "nodeapps-dnode",
   "scripts": {
-    "start": "./bin/server"
+    "start": "node bin/server.js",
+    "install": "node_modules/.bin/browserify bin/client.js -o static/bundle.js",
+    "predeploy": "node_modules/.bin/browserify bin/client.js -o static/bundle.js"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
-    "socket.io": "v0.8.x",
-    "express": "v2.5.0",
-    "dnode": "v0.8.x"
+    "dnode": "v1.0.x",
+    "shoe": "0.0.3",
+    "ecstatic": "0.1.x",
+    "domready": "0.2.x",
+    "browserify": "1.14.x"
   },
   "analyze": false
 }
