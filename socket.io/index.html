@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>socket.io boilerplate</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <p id="msg">loading...</p>
+
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+          window.onload = function () {
+            // Connect to socket.io
+            var socket = io.connect();
+
+            // React to a received message
+            socket.on('ping', function (data) {
+
+              // Modify the DOM to show the message
+              document.getElementById("msg").innerHTML = data.msg;
+
+              // Send a message back to the server
+              socket.emit('pong', {
+                msg: "The web browser also knows socket.io."
+              });
+            });
+          };
+        </script>
+    </body>
+</html>
+
